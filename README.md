@@ -7,4 +7,4 @@ All comparison expressions have been created to output “True” for greater re
 (eq? (* 2 7) (- 14 1))		; False
 and write it as
 (nil? (eq? (* 2 7) (- 14 1)))	; True
-so that there is not a mix of “True”s and “False”s that must be aligned with the output, should you choose to run the files.
+so that there is not a mix of “True”s and “False”s that must be aligned with the output, should you choose to run the files
