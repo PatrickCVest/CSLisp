@@ -39,67 +39,68 @@ Behavior undefined if no tn is true. (probably return nil, buit exit(1) is also 
   
 **SET**  
 ```(set name exp)```  
-The symbol name is associated with the value of exp
+The symbol name is associated with the value of exp  
 
 **\+**  
 ```(+ expr1 epr2)```  
-* Returns the sum of expressions. The expressions must be numbers
+* Returns the sum of expressions. The expressions must be numbers  
 
 **\-**  
 ```(+ expr1 epr2)```  
-* Returns the difference of expressions. The expressions must be numbers
+* Returns the difference of expressions. The expressions must be numbers  
 
 \*  
 ```(* expr1 epr2)```  
-* Returns the product of expressions. The expressions must be numbers
+* Returns the product of expressions. The expressions must be numbers  
 
 \/  
 ```(/ expr1 epr2)```  
-* Returns the quotient. The expressions must be numbers
+* Returns the quotient. The expressions must be numbers  
 
 \=  
 ```(= expr1 expr2)```  
-* Compares the values of two atoms or (). Returns () when either expression is a larger list.
+* Compares the values of two atoms or (). Returns () when either expression is a larger list.  
 
 <  
 ```(< expr1 expr2)```  
-* Return t when expr1 is less than expr2. Expr1 and expr2 must be numbers.
+* Return t when expr1 is less than expr2. Expr1 and expr2 must be numbers.  
 
 >  
 ```(> expr1 expr2)```  
-* Return t when expr1 is greater  expr2. Expr1 and expr2 must be numbers.
+* Return t when expr1 is greater  expr2. Expr1 and expr2 must be numbers.  
 
 CONS  
 ```(cons expr1 expr2)```  
-* Create a cons cell with expr1 as car and expr2 and cdr: ie: (exp1 . expr2)
+* Create a cons cell with expr1 as car and expr2 and cdr: ie: (exp1 . expr2)  
 
 CAR  
 ```(car expr)```  
-* Expr should be a non empty list. Car returns the car cell of the first cons cell
+* Expr should be a non empty list. Car returns the car cell of the first cons cell  
 
 CDR  
 ```(cdr expr)```  
-* Expr should be a non empty list. Cdr returns the cdr cell of the first cons cell
+* Expr should be a non empty list. Cdr returns the cdr cell of the first cons cell  
 
 NUMBER?  
 ```(number? Expr)```  
-* Returns T if the expr is numeric, () otherwise
+* Returns T if the expr is numeric, () otherwise  
 
 SYMBOL?  
 ```(symbol? Expr)```  
-* Returns T if the expr is a name, () otherwise
+* Returns T if the expr is a name, () otherwise  
 
 LIST?  
 ```(list? Expr)```  
-* Returns T iff Expr is not an atom
+* Returns T iff Expr is not an atom  
 
 NIL?  
 ```(nil? Expr)```  
-* Return T iff Expr is ()
+* Return T iff Expr is ()  
 
 Define  
-(define name (arg1 .. argN) expr)
-Defines a function, name. Args is a list of formal parameters. When called the expression will be evualuated with the actual parameters replacing the formal parameters.
+```(define name (arg1 .. argN) expr)```  
+* Defines a function, name. Args is a list of formal parameters. When called the expression will be evualuated with the actual parameters replacing the formal parameters.  
+#
 Informative: call syntax
-(funname expr1 exprN)
+``(funname expr1 exprN)```  
 Calling of function defined by funname. The expressions are evaluated and passed as arguments to the function.
