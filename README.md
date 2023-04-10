@@ -45,59 +45,59 @@ The symbol name is associated with the value of exp
 ```(+ expr1 epr2)```  
 * Returns the sum of expressions. The expressions must be numbers
 
-**\-**
+**\-**  
 ```(+ expr1 epr2)```  
 * Returns the difference of expressions. The expressions must be numbers
 
-\*
+\*  
 ```(* expr1 epr2)```  
 * Returns the product of expressions. The expressions must be numbers
 
-\/
+\/  
 ```(/ expr1 epr2)```  
 * Returns the quotient. The expressions must be numbers
 
-\=
+\=  
 ```(= expr1 expr2)```  
 * Compares the values of two atoms or (). Returns () when either expression is a larger list.
 
-<
+<  
 ```(< expr1 expr2)```  
 * Return t when expr1 is less than expr2. Expr1 and expr2 must be numbers.
 
->
+>  
 ```(> expr1 expr2)```  
 * Return t when expr1 is greater  expr2. Expr1 and expr2 must be numbers.
 
-CONS
+CONS  
 ```(cons expr1 expr2)```  
 * Create a cons cell with expr1 as car and expr2 and cdr: ie: (exp1 . expr2)
 
-CAR
+CAR  
 ```(car expr)```  
 * Expr should be a non empty list. Car returns the car cell of the first cons cell
 
-CDR
+CDR  
 ```(cdr expr)```  
 * Expr should be a non empty list. Cdr returns the cdr cell of the first cons cell
 
-NUMBER?
+NUMBER?  
 ```(number? Expr)```  
 * Returns T if the expr is numeric, () otherwise
 
-SYMBOL?
+SYMBOL?  
 ```(symbol? Expr)```  
 * Returns T if the expr is a name, () otherwise
 
-LIST?
+LIST?  
 ```(list? Expr)```  
 * Returns T iff Expr is not an atom
 
-NIL?
+NIL?  
 ```(nil? Expr)```  
 * Return T iff Expr is ()
 
-Define
+Define  
 (define name (arg1 .. argN) expr)
 Defines a function, name. Args is a list of formal parameters. When called the expression will be evualuated with the actual parameters replacing the formal parameters.
 Informative: call syntax
