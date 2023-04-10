@@ -31,16 +31,16 @@ NIL?
 EQ?  
 #
 # **Built-in Function and Command Defintions
-COND 
-(cond t1 r1 t2 r2 t3 r3)
-if t1 is true returns r1...if t2 is true return r2...
-Most efficient if lazy evalauation is used.
-Behavior undefined if no tn is true. (probably return nil, buit exit(1) is also fine)
-SET
-(set name exp)
+COND  
+```(cond t1 r1 t2 r2 t3 r3)```  
+if t1 is true returns r1...if t2 is true return r2...  
+Most efficient if lazy evalauation is used.  
+Behavior undefined if no tn is true. (probably return nil, buit exit(1) is also fine)  
+SET  
+```(set name exp)```  
 The symbol name is associated with the value of exp
 
-**+**  
+**\+**  
 ```(+ expr1 epr2)```  
 * Returns the sum of expressions. The expressions must be numbers
 
