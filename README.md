@@ -10,13 +10,13 @@ and write it as
 so that there is not a mix of “True”s and “False”s that must be aligned with the output, should you choose to run the files    
 #
 # **Built-in Functions and Commands:**
-+  
--  
-*  
-/  
-=  
-<  
->  
++ 
+- 
+* 
+/ 
+= 
+< 
+> 
 
 DEFINE   
 SET  
