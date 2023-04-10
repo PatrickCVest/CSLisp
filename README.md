@@ -41,7 +41,7 @@ Behavior undefined if no tn is true. (probably return nil, buit exit(1) is also 
 ```(set name exp)```  
 The symbol name is associated with the value of exp  
 
-<strong>+</strong>  
+**+** 
 ```(+ expr1 epr2)```  
 * Returns the sum of expressions. The expressions must be numbers  
 
