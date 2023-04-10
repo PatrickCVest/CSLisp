@@ -10,13 +10,13 @@ and write it as
 so that there is not a mix of “True”s and “False”s that must be aligned with the output, should you choose to run the files    
 #
 # **Built-in Functions and Commands:**
-+ 
-- 
-* 
-/ 
-= 
-< 
-> 
+\+  
+\-  
+\*  
+\/  
+\=  
+<  
+>  
 
 DEFINE   
 SET  
@@ -40,23 +40,23 @@ SET
 (set name exp)
 The symbol name is associated with the value of exp
 
-+
+\+
 ```(+ expr1 epr2)```
 Returns the sum of expressions. The expressions must be numbers
 
--
+\-
 ```(+ expr1 epr2)```
 Returns the difference of expressions. The expressions must be numbers
 
-*
+\*
 ```(* expr1 epr2)```
 Returns the product of expressions. The expressions must be numbers
 
-/
+\/
 ```(/ expr1 epr2)```
 Returns the quotient. The expressions must be numbers
 
-=
+\=
 ```(= expr1 expr2)```
 Compares the values of two atoms or (). Returns () when either expression is a larger list.
 
