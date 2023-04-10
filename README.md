@@ -49,7 +49,7 @@ The symbol name is associated with the value of exp
 ```(+ expr1 epr2)```  
 * Returns the difference of expressions. The expressions must be numbers  
 
-**\**  
+**\***  
 ```(* expr1 epr2)```  
 * Returns the product of expressions. The expressions must be numbers  
 
