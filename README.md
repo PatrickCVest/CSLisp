@@ -42,7 +42,7 @@ The symbol name is associated with the value of exp
 
 \+  
 ```(+ expr1 epr2)```
-.Returns the sum of expressions. The expressions must be numbers
+*Returns the sum of expressions. The expressions must be numbers
 
 \-
 ```(+ expr1 epr2)```
