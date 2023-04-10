@@ -9,7 +9,7 @@ and write it as
 ```(nil? (eq? (* 2 7) (- 14 1)))	; True```  
 so that there is not a mix of “True”s and “False”s that must be aligned with the output, should you choose to run the files    
 #
-# **Built-in Functions and Commands:**
+# Built-in Functions and Commands:
 \+  
 \-  
 \*  
@@ -30,7 +30,7 @@ LIST?
 NIL?  
 EQ?  
 #
-# **Built-in Function and Command Defintions
+# Built-in Function and Command Defintions
 COND  
 ```(cond t1 r1 t2 r2 t3 r3)```  
 if t1 is true returns r1...if t2 is true return r2...  
