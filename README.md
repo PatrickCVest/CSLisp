@@ -41,31 +41,31 @@ Behavior undefined if no tn is true. (probably return nil, buit exit(1) is also 
 ```(set name exp)```  
 The symbol name is associated with the value of exp  
 
-**\+**  
+***\+***  
 ```(+ expr1 epr2)```  
 * Returns the sum of expressions. The expressions must be numbers  
 
-**\-**  
+***\-***  
 ```(+ expr1 epr2)```  
 * Returns the difference of expressions. The expressions must be numbers  
 
-**\***  
+***\***  
 ```(* expr1 epr2)```  
 * Returns the product of expressions. The expressions must be numbers  
 
-**\/**  
+***\/***  
 ```(/ expr1 epr2)```  
 * Returns the quotient. The expressions must be numbers  
 
-**\=**  
+***\=***  
 ```(= expr1 expr2)```  
 * Compares the values of two atoms or (). Returns () when either expression is a larger list.  
 
-**<**  
+***<***  
 ```(< expr1 expr2)```  
 * Return t when expr1 is less than expr2. Expr1 and expr2 must be numbers.  
 
-**>**  
+***>***  
 ```(> expr1 expr2)```  
 * Return t when expr1 is greater  expr2. Expr1 and expr2 must be numbers.  
 
