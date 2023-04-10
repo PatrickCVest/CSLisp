@@ -101,6 +101,6 @@ Define
 ```(define name (arg1 .. argN) expr)```  
 * Defines a function, name. Args is a list of formal parameters. When called the expression will be evaluated with the actual parameters replacing the formal parameters.  
 #
-Informative: call syntax
+Informative: call syntax  
 ```(funname expr1 exprN)```  
 * Calling of function defined by funname. The expressions are evaluated and passed as arguments to the function.
